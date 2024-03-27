@@ -1,0 +1,86 @@
+/*-------------------------Navbar----------------------- */
+
+nav{
+    border: 1px solid red; 
+    max-width: 1950px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.navImg{
+    height: 100px;
+}
+
+
+/*------------------------------------------------------ */
+
+/*------------------------FormSearch------------------- */
+.searchBar{
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+   
+}
+
+.input-search{
+    height: 30px;
+    width: 600px;
+    border-radius: 10px 0px 0px 10px;
+    border-style: none;
+    outline: none;
+    padding-inline: 10px;
+    background-color: rgb(194, 178, 178);
+    color: rgba(255, 255, 255, 0.548);
+}
+
+.btnSearch{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    border-radius: 0px 10px 10px 0px;
+}
+/*------------------------------------------------------ */
+
+/*------------------------CardsCharacter------------------- */
+.content-container{
+    background-color: #8C6A3F;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #f2f2f2;
+    border: 2px solid red;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right{
+    margin: 10px 0px;
+    width: auto;
+    height: 100px;
+    border: 2px solid;
+}
+
+.cardImg{
+    height: 100px;
+}
+
+/*------------------------------------------------------ */
